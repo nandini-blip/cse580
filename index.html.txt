@@ -1,0 +1,43 @@
+registration.html
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor = "white">    
+<form>  
+  
+<label> Firstname </label>         
+<input type="text" name="firstname" size="15"/> 
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/>   
+   
+
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/>
+
+<label>   
+Gender :  
+</label> 
+<input type="radio" name="male"/> Male   
+<input type="radio" name="female"/> Female
+
+
+Address: 
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+ 
+Email:  
+<input type="email" id="email" name="email"/>    
+
+Password:  
+<input type="Password" id="pass" name="pass">    
+ 
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>  
